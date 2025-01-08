@@ -1,0 +1,14 @@
+#DocumentHolder {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+#Home {
+    display: block;
+    text-align: center;
+}
+
+.FontClass {
+    font-size: 22px;
+}
