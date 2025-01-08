@@ -26,3 +26,21 @@
     padding: 8px 5px;
 }
 
+.NumberBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(209, 209, 209);
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    
+}
+
+#GridContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}

@@ -1,5 +1,16 @@
 /* Used functions */
+function CreateNumberBox (AmountOfBoxes) {
+    GridContainer.innerHTML = '';
+    
+    for (let i = 0; i < AmountOfBoxes; i++) {
+        let Numberbox = document.createElement("div");
+        Numberbox.textContent = Math.round(99 * Math.random());
 
+        Numberbox.classList.add("FontClass", "NumberBox")
+
+        GridContainer.append(Numberbox)
+    }
+};
 
 
 
@@ -35,7 +46,6 @@ CommonContainer.append(CommonInput);
 CommonInput.classList.add("FontClass");
 CommonInput.style.textAlign = "center";
 CommonInput.id = "CommonInput";
-CommonInput.setAttribute("type", "number");
 
 const CommonButton = button;;
 CommonContainer.append(CommonButton);
@@ -44,6 +54,10 @@ CommonButton.classList.add("FontClass");
 CommonButton.id = "CommonButton";
 
 /* Grid-Layout and Numbers */
-CommonButton.addEventListener("click" function () {
-    if ()
+CommonButton.addEventListener("click", function () {
+    CreateNumberBox(CommonInput.value)
 })
+
+const GridContainer = div;
+document.body.append(GridContainer);
+GridContainer.id = "GridContainer"
