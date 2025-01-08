@@ -13,15 +13,6 @@ function CreateNumberBox (AmountOfBoxes) {
 };
 
 
-
-/* Element shortcuts */
-let a = document.createElement("a");
-let p = document.createElement("p");
-let div = document.createElement("div");
-let button = document.createElement("button");
-let input = document.createElement("input");
-
-
 /* Home Link on every document */
 const Home = document.createElement("a");
 document.body.append(Home);
@@ -32,22 +23,22 @@ Home.id = "Home"
 
 
 /* How many numbers in the grid paragraph + Input + Create */
-const CommonContainer = div;
+const CommonContainer = document.createElement("div");
 document.body.append(CommonContainer);
 CommonContainer.id = "CommonContainer";
 
-const CommonParagraph = p;
+const CommonParagraph = document.createElement("p");
 CommonContainer.append(CommonParagraph);
 CommonParagraph.textContent = "How many numbers in the grid?";
 CommonParagraph.classList.add("FontClass");
 
-const CommonInput = input;
+const CommonInput = document.createElement("input");
 CommonContainer.append(CommonInput);
 CommonInput.classList.add("FontClass");
 CommonInput.style.textAlign = "center";
 CommonInput.id = "CommonInput";
 
-const CommonButton = button;;
+const CommonButton = document.createElement("button");;
 CommonContainer.append(CommonButton);
 CommonButton.textContent = "Create";
 CommonButton.classList.add("FontClass");
@@ -58,6 +49,6 @@ CommonButton.addEventListener("click", function () {
     CreateNumberBox(CommonInput.value)
 })
 
-const GridContainer = div;
+const GridContainer = document.createElement("div");
 document.body.append(GridContainer);
 GridContainer.id = "GridContainer"

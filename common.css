@@ -11,7 +11,7 @@
 
 .FontClass {
     font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 #CommonContainer {
@@ -31,7 +31,7 @@
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(228, 227, 227);
     border-radius: 5px;
     height: 30px;
     width: 30px;
