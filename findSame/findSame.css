@@ -1,0 +1,7 @@
+#FindSameControlsContainer {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}

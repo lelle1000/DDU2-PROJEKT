@@ -1,15 +1,10 @@
-#RemoveControls {
+#RemoveControlsContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
-.SHORT {
-    width: 50px;
-}
 
-.CENTER {
-    text-align: center;
-}
+

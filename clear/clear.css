@@ -1,0 +1,9 @@
+#ClearControlsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#ClearControlsContainer button {
+    padding: 5px;
+}

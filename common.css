@@ -46,3 +46,28 @@
     flex-wrap: wrap;
     gap: 10px;
 }
+
+.CENTER {
+    text-align: center;
+}
+
+.InputSHORT {
+    width: 60px;
+}
+
+.InputMEDIUM {
+    width: 120px;
+}
+
+.InputLONG {
+    width: 260px;
+}
+
+.InputSUPERLONG {
+    width: 520px;
+}
+
+.ThickBorder {
+    border: 1px solid black;
+}
+

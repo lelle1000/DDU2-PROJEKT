@@ -1,0 +1,16 @@
+.SumControls {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+}
+
+.SumControls p {
+    margin: 10px;
+}
+
+#SumControlsContainer {
+    margin-bottom: 20px;
+}

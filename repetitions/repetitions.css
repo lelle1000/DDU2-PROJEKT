@@ -1,0 +1,15 @@
+.RepetitionControls {
+    display: flex;
+    gap: 15px;
+    margin: 15px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.RepetitionControls p {
+    margin: 10px;
+}
+
+#RepetitionControlsContainer {
+    margin-bottom: 20px;
+}
