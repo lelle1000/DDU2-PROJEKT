@@ -1,0 +1,15 @@
+#RemoveControls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.SHORT {
+    width: 50px;
+}
+
+.CENTER {
+    text-align: center;
+}

@@ -14,12 +14,17 @@ function CreateNumberBox (AmountOfBoxes) {
 
 
 /* Home Link on every document */
+
+const HomeContainer = document.createElement("div");
+document.body.append(HomeContainer);
+HomeContainer.id = "HomeContainer";
+
 const Home = document.createElement("a");
-document.body.append(Home);
+HomeContainer.append(Home)
 Home.textContent = "Home";
 Home.setAttribute("href", "../index.html");
 Home.classList.add("FontClass")
-Home.id = "Home"
+
 
 
 /* How many numbers in the grid paragraph + Input + Create */
