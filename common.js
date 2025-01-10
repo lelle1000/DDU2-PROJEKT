@@ -9,10 +9,10 @@ function CreateNumberBox (AmountOfBoxes) {
         GridContainer.append(Numberbox)
     }
 
-    SumBoxFunction() // Sum Of All Function
-    CalucalteSumOfALL() // Sum Of All Function
+    //SumBoxFunction() // Sum Of All Function
+    //CalucalteSumOfALL() // Sum Of All Function
 
-    ClearClick
+    ClearClick() // Clear Function
 };
 
 /* Home Link on every document */

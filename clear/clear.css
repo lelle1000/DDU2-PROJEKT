@@ -7,3 +7,13 @@
 #ClearControlsContainer button {
     padding: 5px;
 }
+
+.ClearColor {
+    background-color: red;
+    color: red;
+}
+
+.ClearColor:hover {
+    background-color: orange;
+    color: orange;
+}
