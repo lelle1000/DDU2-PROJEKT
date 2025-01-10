@@ -11,6 +11,8 @@ function CreateNumberBox (AmountOfBoxes) {
 
     SumBoxFunction() // Sum Of All Function
     CalucalteSumOfALL() // Sum Of All Function
+
+    ClearClick
 };
 
 /* Home Link on every document */

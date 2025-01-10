@@ -37,6 +37,7 @@ function SumBoxFunction () {
 
                 ClickBox[i].classList.add("NumberBoxColor");
                 ClickBox[i].classList.remove("MARKEDColor");
+                TotalSum = 0;
             }
         }) 
     }
