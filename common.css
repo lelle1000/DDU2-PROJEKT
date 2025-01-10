@@ -28,23 +28,28 @@
     width: 75px;
     padding: 8px 5px;
 }
-
 .NumberBox {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background-color: rgb(217, 216, 216);
-    border-radius: 7px;
+    border-radius: 10px;
     height: 30px;
     width: 30px;
-    
+}
+.NumberBoxColor {
+    background-color: rgb(217, 216, 216);
+}
+
+.HOVER:hover {
+    cursor: pointer;
+    opacity: 0.7;
 }
 
 #GridContainer {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 5px;
 }
 
 .CENTER {

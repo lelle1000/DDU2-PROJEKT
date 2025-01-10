@@ -1,16 +1,21 @@
 /* Used functions */
 function CreateNumberBox (AmountOfBoxes) {
-    GridContainer.innerHTML = '';
-    
+    gridContainer.innerHTML = "";
     for (let i = 0; i < AmountOfBoxes; i++) {
         let Numberbox = document.createElement("div");
         Numberbox.textContent = Math.round(99 * Math.random());
-
-        Numberbox.classList.add("FontClass", "NumberBox")
+        Numberbox.classList.add("FontClass", "NumberBoxColor", "NumberBox", "HOVER")
 
         GridContainer.append(Numberbox)
     }
+
+
+
+
+
+    CalucalteSumOfALL() // Sum Of All Function
 };
+
 
 
 /* Home Link on every document */
@@ -46,7 +51,7 @@ CommonInput.id = "CommonInput";
 const CommonButton = document.createElement("button");;
 CommonContainer.append(CommonButton);
 CommonButton.textContent = "Create";
-CommonButton.classList.add("FontClass");
+CommonButton.classList.add("FontClass", "CENTER");
 CommonButton.id = "CommonButton";
 
 /* Grid-Layout and Numbers */
