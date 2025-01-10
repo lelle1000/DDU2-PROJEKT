@@ -15,7 +15,7 @@
     margin-bottom: 20px;
 }
 
-.MARKEDColor:active {
+.MARKEDColor {
     background-color: lightgreen;
 }
 
