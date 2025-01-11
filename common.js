@@ -9,10 +9,12 @@ function CreateNumberBox (AmountOfBoxes) {
         GridContainer.append(Numberbox)
     }
 
-    //SumBoxFunction() // Sum Of All Function
-    //CalucalteSumOfALL() // Sum Of All Function
+    if (typeof CalucalteSumOfALL === "function") CalucalteSumOfALL(); // Sum Of All Function
+    if (typeof SumBoxFunction === "function") SumBoxFunction(); // Sum Of All Function
 
-    ClearClick() // Clear Function
+    if (typeof ClearClick === "function") ClearClick(); // Clear Function
+
+    if (typeof FindSameFunction === "function") FindSameFunction(); // FindSameFunction Function
 };
 
 /* Home Link on every document */
@@ -59,3 +61,4 @@ CommonButton.addEventListener("click", function () {
 const GridContainer = document.createElement("div");
 document.body.append(GridContainer);
 GridContainer.id = "GridContainer"
+

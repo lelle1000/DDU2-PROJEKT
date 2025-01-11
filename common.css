@@ -10,7 +10,6 @@
     align-items: center;
 }
 
-
 .FontClass {
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
@@ -27,6 +26,7 @@
     width: 75px;
     padding: 8px 5px;
 }
+
 .NumberBox {
     display: flex;
     justify-content: center;
@@ -36,6 +36,7 @@
     height: 30px;
     width: 30px;
 }
+
 .NumberBoxColor {
     background-color: rgb(217, 216, 216);
     color: black;
@@ -76,3 +77,6 @@
     border: 1px solid black;
 }
 
+.MARKEDColor {
+    background-color: lightgreen;
+}
