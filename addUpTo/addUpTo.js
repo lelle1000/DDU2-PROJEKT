@@ -19,6 +19,11 @@ document.getElementById("AddUpToButton").addEventListener("click", function () {
                 numberBoxes[j].classList.add("MARKEDColor")
                 numberBoxes[j].classList.remove("NumberBoxColor")
                 return;
+            } else {
+                numberBoxes[i].classList.remove("MARKEDColor")
+                numberBoxes[i].classList.add("NumberBoxColor")
+                numberBoxes[j].classList.remove("MARKEDColor")
+                numberBoxes[j].classList.add("NumberBoxColor")
             }
         }
     }
