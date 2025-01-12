@@ -1,6 +1,4 @@
 
-
-/* Moved down the newly created HTML elements inbetween the Common JS elements */
 const SumContainer = document.getElementById("SumControlsContainer")
 const gridContainer = document.getElementById("GridContainer")
 
@@ -42,6 +40,8 @@ function SumBoxFunction () {
         }) 
     }
 }
+
+
 
 
 

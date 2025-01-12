@@ -1,5 +1,4 @@
 
-/* Moved down the newly created HTML elements inbetween the Common JS elements */
 const ClearContainer = document.getElementById("ClearControlsContainer");
 const gridContainer = document.getElementById("GridContainer");
 

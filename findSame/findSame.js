@@ -1,5 +1,4 @@
 
-/* Moved down the newly created HTML elements inbetween the Common JS elements */
 const FindSameContainer = document.getElementById("FindSameControlsContainer");
 const gridContainer = document.getElementById("GridContainer");
 
