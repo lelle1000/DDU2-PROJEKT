@@ -1,4 +1,4 @@
-/* Used functions */
+
 function CreateNumberBox (AmountOfBoxes) {
     gridContainer.innerHTML = "";
     for (let i = 0; i < AmountOfBoxes; i++) {
@@ -9,15 +9,15 @@ function CreateNumberBox (AmountOfBoxes) {
         GridContainer.append(Numberbox)
     }
 
-    if (typeof CalucalteSumOfALL === "function") CalucalteSumOfALL(); // Sum Of All Function
-    if (typeof SumBoxFunction === "function") SumBoxFunction(); // Sum Of All Function
+    if (typeof CalucalteSumOfALL === "function") CalucalteSumOfALL(); 
+    if (typeof SumBoxFunction === "function") SumBoxFunction(); 
 
-    if (typeof ClearClick === "function") ClearClick(); // Clear Function
+    if (typeof ClearClick === "function") ClearClick(); 
 
-    if (typeof FindSameFunction === "function") FindSameFunction(); // FindSameFunction Function
+    if (typeof FindSameFunction === "function") FindSameFunction(); 
 };
 
-/* Home Link on every document */
+
 
 const HomeContainer = document.createElement("div");
 document.body.append(HomeContainer);
@@ -29,7 +29,7 @@ Home.textContent = "Home";
 Home.setAttribute("href", "../index.html");
 Home.classList.add("FontClass")
 
-/* How many numbers in the grid paragraph + Input + Create */
+
 const CommonContainer = document.createElement("div");
 document.body.append(CommonContainer);
 CommonContainer.id = "CommonContainer";
@@ -51,7 +51,7 @@ CommonButton.textContent = "Create";
 CommonButton.classList.add("FontClass", "CENTER");
 CommonButton.id = "CommonButton";
 
-/* Grid-Layout and Numbers */
+
 CommonButton.addEventListener("click", function () {
     CreateNumberBox(CommonInput.value)
 })
