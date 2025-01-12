@@ -12,24 +12,27 @@ document.getElementById("RemRandomButton").addEventListener("click", function ()
     let numberBoxes = document.querySelectorAll(".NumberBoxColor")
     document.getElementById("RemRandomInput").value = Math.round(99 * Math.random());
 
+    for (let i = 0; i < matchingBoxes.length; i++) {
+        if (matchingBoxes[i].classList.contains("REMOVEDColor")) {
+            continue;
+        } else {
+            matchingBoxes[i].classList.remove("RemoveCSSColor");
+            matchingBoxes[i].classList.add("NumberBoxColor");
+        }
+    }
+
     matchingBoxes = [];
 
     for (let i = 0; i < numberBoxes.length; i++) {
 
-        if (!numberBoxes[i].classList.contains("REMOVEDColor")) {
-            numberBoxes[i].classList.remove("RemoveCSSColor")
-           
-        }
         if (Number(numberBoxes[i].textContent) === Number(document.getElementById("RemRandomInput").value) ) {
             numberBoxes[i].classList.add("RemoveCSSColor", "HOVER")
             numberBoxes[i].classList.remove("NumberBoxColor")
             matchingBoxes.push(numberBoxes[i])
         }
+
     }
 })
-
-
-
 
 document.getElementById("RemButton").addEventListener("click", function () {
     for (let i = 0; i < matchingBoxes.length; i++) {
