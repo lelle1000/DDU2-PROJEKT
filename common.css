@@ -1,9 +1,5 @@
 @font-face {
-    src: url();
-    font-family: Standard;
-}
-
-* {
+    src: url(Fonts/Lora/Lora-Italic-VariableFont_wght.ttf);
     font-family: Standard;
 }
 
@@ -21,7 +17,7 @@
 
 .FontClass {
     font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Standard;
 }
 
 #CommonContainer {
@@ -32,8 +28,11 @@
 }
 
 #CommonContainer button, #CommonContainer input {
-    width: 75px;
     padding: 8px 5px;
+}
+
+#CommonContainer input {
+    width: 75px;
 }
 
 .NumberBox {
