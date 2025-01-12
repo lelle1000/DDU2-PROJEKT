@@ -29,8 +29,6 @@ Home.textContent = "Home";
 Home.setAttribute("href", "../index.html");
 Home.classList.add("FontClass")
 
-
-
 /* How many numbers in the grid paragraph + Input + Create */
 const CommonContainer = document.createElement("div");
 document.body.append(CommonContainer);
